@@ -1,3 +1,4 @@
+![Github Action](https://github.com/ekachaikeaw/learn-cicd-typescript-starter/actions/workflows/ci.yml/badge.svg)
 # E-Commerce API Documentation
 
 A complete e-commerce REST API built with NestJS, Prisma, and PostgreSQL.
