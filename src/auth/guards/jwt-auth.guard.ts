@@ -6,7 +6,6 @@ export class JwtAuthGuard extends AuthGuard('jwt') {
   handleRequest(err, user, info) {
     // You can throw an exception based on either "info" or "err" arguments
     if (err || user.name !== 'Pop') {
-      console.log('user', user);
       console.log('info', info);
       console.log('err', err);
       if (info && info.message === 'No auth token')

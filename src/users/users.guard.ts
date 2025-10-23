@@ -22,7 +22,7 @@ export class UsersGuard implements CanActivate {
       return true;
     } catch (error: unknown) {
       console.error(error);
-      throw new UnauthorizedException('Invalid token ');
+      throw new UnauthorizedException('Invalid token g');
     }
   }
 }
